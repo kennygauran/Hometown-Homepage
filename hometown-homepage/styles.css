@@ -1,0 +1,103 @@
+*, ::before, ::after { box-sizing: border-box; }
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+    font-family: 'Arial';
+    color: black;
+
+}
+
+#activities img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#hero {
+    background-image: url(images/munisipyo.jpg);
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #28282B;
+}
+
+#hero h1 {
+    background: #ff4800;
+    border-radius: 10px;
+    width: 225px;
+    height: 42px;
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+#hero h2 {
+    background: #ff8500;
+    border-radius: 10px;
+    width: 412px;
+    height: 52px;
+    margin: 0;
+    padding: 4px 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#activities {
+    background-color: #ffb600;
+    display: flex;
+    flex-direction: row;
+    height: 343px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#activities section {
+    width: 198px;
+}
+
+#activities h3 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#img-wrap1,#img-wrap2,#img-wrap3  {
+    width: 50px;
+}
+
+#guide {
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #ff8500;
+    width: 400px;
+    height: 294px;
+    padding: 0 12px;
+    box-shadow: 0px 6px 0px #ff6000;
+    border-radius: 10px;
+}
+
+#card img {
+    width: 160px;
+    border-radius: 10px;
+}
+
+#details h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#details p {
+    font-style: italic;
+}
